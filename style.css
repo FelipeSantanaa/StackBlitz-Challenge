@@ -24,20 +24,17 @@ main {
 /* MOBILE */
 
 .card {
+  border-end-start-radius: 10px;
+  border-end-end-radius: 10px;
+  padding-bottom: 1rem;
 }
 
 .bg-purple {
+  margin-top: 15px;
+  padding: 15px;
   display: flex;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-
-  border-end-start-radius: 10px;
-  border-end-end-radius: 10px;
+  border-radius: 10px;
   background-color: var(--bg-blue);
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 15px;
-  margin-top: 1rem;
 }
 
 .user-image {
@@ -88,6 +85,26 @@ main {
   color: white;
 }
 
+/* WORK MOBILE */
+
 .bg-orange {
-  background: orange;
+  position: absolute;
+  display: flex;
+  background-color: orange;
+  border-radius: 15px;
+  z-index: 5;
+  width: 21rem;
+}
+
+.bg-orange > img {
+  display: flex;
+  margin-left: auto;
+}
+
+.work-content {
+  position: relative;
+  background-color: var(--bg-blue);
+  padding-top: 10px;
+  margin-top: 0;
+  border-radius: 20px;
 }
