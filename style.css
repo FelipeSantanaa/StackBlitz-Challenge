@@ -12,6 +12,7 @@
 
 :root {
   --bg-blue: hsl(246, 80%, 60%);
+  --bg-orange: orange;
   --color-gray: gray;
 }
 
@@ -21,6 +22,9 @@ main {
 }
 
 /* MOBILE */
+
+.card {
+}
 
 .bg-purple {
   display: flex;
@@ -82,4 +86,8 @@ main {
 
 .card-footer > ul > li:hover {
   color: white;
+}
+
+.bg-orange {
+  background: orange;
 }
