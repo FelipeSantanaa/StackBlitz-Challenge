@@ -11,6 +11,7 @@
 }
 
 :root {
+  --primary-color: rgb(31, 5, 102);
   --bg-blue: hsl(246, 80%, 60%);
   --bg-orange: orange;
   --color-gray: gray;
@@ -19,6 +20,11 @@
 
 main {
   margin: 20px;
+}
+
+img {
+  width: 79px;
+  height: 79px;
 }
 
 /* MOBILE */
@@ -45,6 +51,7 @@ main {
 
 .first-card-content {
   flex-flow: column nowrap;
+  background-color: var(--bg-blue);
 }
 
 .first-card-content > h4 {
@@ -62,7 +69,7 @@ main {
 }
 
 .card-footer {
-  background-color: hsl(264, 74%, 39%);
+  background-color: var(--primary-color);
   border-end-start-radius: 10px;
   border-end-end-radius: 10px;
 }
@@ -86,14 +93,38 @@ main {
 
 /* WORK MOBILE */
 
-.bg-orange {
+.bg {
   position: relative;
   display: flex;
-  background-color: orange;
   border-radius: 15px;
+  margin-top: 2rem;
 }
 
-.bg-orange > img {
+.bg-orange {
+  background-color: orange;
+}
+
+.bg-red {
+  background-color: rgba(255, 17, 0, 0.644);
+}
+
+.bg-blue {
+  background-color: rgb(122, 179, 245);
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-purple2 {
+  background-color: purple;
+}
+
+.bg-gold {
+  background-color: gold;
+}
+
+.bg > img {
   display: flex;
   margin-left: auto;
   margin-right: 4%;
@@ -102,13 +133,14 @@ main {
 .card-content {
   color: var(--color-little-white);
   position: absolute;
-  background-color: var(--bg-blue);
+  background-color: var(--primary-color);
   padding-top: 10px;
   padding-left: 1.5rem;
   border-radius: 20px;
   max-width: 100%;
   width: 90%;
   margin-top: -11%;
+  margin-bottom: 11%;
   z-index: 1;
 }
 
@@ -141,4 +173,9 @@ main {
 
 .card-title-content > h3 {
   margin-top: 10px;
+}
+
+/* ATRIBUIÇÃO */
+.attribution {
+  margin-top: 3rem;
 }
